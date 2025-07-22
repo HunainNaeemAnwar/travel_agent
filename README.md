@@ -1,16 +1,16 @@
-# 🧳 AI Travel Designer Agent
+#  AI Travel Designer Agent
 
 An AI-powered multi-agent system that plans personalized travel experiences using the OpenAI Agent SDK and Chainlit UI.
 
 ---
 
-## ✨ Description
+##  Description
 
 This project simulates an intelligent travel planner that suggests destinations, books mock hotels and flights, and helps explore local attractions. It uses multiple specialized agents and tool calling via OpenAI's Agent SDK, while the user interface is built using **Chainlit**.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Mood-based destination suggestions
 - Mock hotel and flight booking
@@ -21,9 +21,9 @@ This project simulates an intelligent travel planner that suggests destinations,
 
 ---
 
-## 🧠 Architecture Overview
+##  Architecture Overview
 
-### 🧩 OrchestratorAgent
+###  OrchestratorAgent
 Main coordinator handling user flow and agent delegation.
 
 **Tools:**
@@ -36,12 +36,12 @@ Main coordinator handling user flow and agent delegation.
 
 ---
 
-### 🌍 DestinationAgent
+### DestinationAgent
 Suggests destinations based on mood or interest.
 
 ---
 
-### 🏨 BookingAgent
+###  BookingAgent
 Handles hotel and flight mock bookings.
 
 **Tools:**
@@ -50,12 +50,12 @@ Handles hotel and flight mock bookings.
 
 ---
 
-### 🗺️ ExploreAgent
+###  ExploreAgent
 Recommends attractions and food in the chosen destination.
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 | Component         | Tool/Framework         |
 |------------------|------------------------|
