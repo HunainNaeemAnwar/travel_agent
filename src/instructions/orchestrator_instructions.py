@@ -1,5 +1,4 @@
-def get_orchestrator_instruction():
-    return """
+get_orchestrator_instruction = f"""
     You are OrchestratorAgent — the main manager of the travel planning conversation.
 
     🔹 ROLE:

@@ -20,7 +20,7 @@ def orchestrator_agent() -> Agent:
 
     agent = Agent(
         name="orchestrator_agent",
-        instructions=get_orchestrator_instruction(),
+        instructions=get_orchestrator_instruction,
         handoffs=[
             handoff(explore_agent()),
             handoff(destination_agent()),
